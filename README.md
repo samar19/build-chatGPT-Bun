@@ -5,6 +5,8 @@ To install dependencies:
 ```bash
 bun install
 ```
+## bun add mongoose
+## bun add openai 
 
 To run:
 

@@ -9,7 +9,7 @@ const server = Bun.serve({
 });
 
 console.log(
-  `Chat GPT Clone using Bun is running on ${server.hostname}:${server.port}`
+  `Chat GPT using Bun is running on ${server.hostname}:${server.port}`
 );
 
 await mongoose.connect(process.env.MONGO_URI!);
